@@ -1,0 +1,17 @@
+{
+  "jspm": {
+    "directories": {},
+    "dependencies": {
+      "angular": "github:angular/bower-angular@^1.4.4",
+      "codemirror": "npm:codemirror@^5.6.0",
+      "emojify.js": "npm:emojify.js@^1.1.0",
+      "highlight.js": "npm:highlight.js@^8.7.0",
+      "marked": "npm:marked@^0.3.5",
+      "meta-marked": "npm:meta-marked@^0.3.3"
+    },
+    "devDependencies": {}
+  },
+  "devDependencies": {
+    "jspm": "^0.16.1"
+  }
+}

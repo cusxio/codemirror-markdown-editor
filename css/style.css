@@ -1,0 +1,45 @@
+.editor {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 50%;
+  box-shadow: -10px 2px 6px 10px rgba(0, 0, 0, 0.4);
+}
+
+.preview {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 50%;
+  bottom: 0;
+  overflow: auto;
+  padding: 30px;
+}
+
+.CodeMirror {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: auto;
+  height: auto;
+}
+
+.CodeMirror-scroll {
+  padding: 30px;
+  box-sizing: border-box;
+}
+
+.CodeMirror pre {
+  line-height: 16px;
+}
+
+.emoji {
+  width: 1.5em;
+  height: 1.5em;
+  display: inline-block;
+  margin-bottom: -0.25em;
+  vertical-align: top;
+}
